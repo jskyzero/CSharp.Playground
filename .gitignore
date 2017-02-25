@@ -1,3 +1,6 @@
 # scs output file
 *.exe
 *.dll
+
+# scs output /target:library /our:*.Dll
+*.Dll
