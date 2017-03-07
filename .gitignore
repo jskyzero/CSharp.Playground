@@ -4,3 +4,7 @@
 
 # scs output /target:library /our:*.Dll
 *.Dll
+
+# dotnet
+bin
+obj
