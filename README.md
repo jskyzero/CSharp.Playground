@@ -2,7 +2,8 @@
 
 ### 什么是C Sharp
 
-> **C#**是微软的高级编程语言。**C#**的发音为“C sharp”，模仿音乐上的音名“[C♯]”（C调升），是C语言的升级的意思。其正确写法应和音名一样为“C♯”，但大多数情况下“♯”符号被[井号]“#”所混用；两者差别是：“♯”的笔画是上下偏斜的，而“#”的笔画是左右偏斜。C♯由[C语言](https://zh.wikipedia.org/wiki/C%E8%AF%AD%E8%A8%80)和[C++](https://zh.wikipedia.org/wiki/C%2B%2B)派生而来，继承了其强大的性能，同时又以.NET框架类库作为基础，拥有类似[Visual Basic](https://zh.wikipedia.org/wiki/Visual_Basic)的快速开发能力。C#由[安德斯·海尔斯伯格](https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E6%96%AF%C2%B7%E6%B5%B7%E5%B0%94%E6%96%AF%E4%BC%AF%E6%A0%BC)主持开发，微软在2000年发布了这种语言。
+> WikiPedia对C#的介绍
+> C#是微软推出的一种基于.NET框架的、面向对象的高级编程语言。C#的发音为“C sharp”，模仿音乐上的音名“C♯”（C调升），是C语言的升级的意思。其正确写法应和音名一样为“C♯”，但大多数情况下“♯”符号被井号“#”所混用；两者差别是：“♯”的笔画是上下偏斜的，而“#”的笔画是左右偏斜。C♯由C语言和C++派生而来，继承了其强大的性能，同时又以.NET框架类库作为基础，拥有类似Visual Basic的快速开发能力。C#由安德斯·海尔斯伯格主持开发，微软在2000年发布了这种语言。
 
 ### Tips
 
@@ -10,8 +11,8 @@
 + C#旨在设计成为一种“简单、现代、通用”，以及面向对象的程序设计语言
 
 
-
 ## .NET Framework 平台体系结构
+> C# 是 .Net 框架的一部分，且用于编写 .Net 应用程序。因而我们可能需要先了解下.NET
 
 ### 什么是.NET Framework
 
@@ -24,11 +25,21 @@ CLI，[通用语言基础架构](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A
 ### 运行细节
 
 1. C#源代码被编译成符合CLI规范的中间语言（IL），IL代码与资源文件一起作为程序集文件存为.{exe|dll}文件。
-2. 执行C#程序时候，程序集被加载到CLR中，如果符合安全要求，则CLR执行实时（JIT）编译将IL代码转化为本机机器指令，CLR还提供自动垃圾回收，异常处理和资源管理有关的其他服务。
-
+`
 ## C Sharp 上手
+
+### 自己编译运行HelloWorld.cs
+关于编译相关可以[参考](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/compiler-options/index)中间示例都给的很详细。在教程中也有涉及到，总之用上的时候在具体来学参数可能会比较有效率。
+
+### 语法程序相关，请参考最下面的参考随意跟着一个教程跟着做完
+
+### 
 
 ## Reference 
 
 [Wikipedia C#](https://zh.wikipedia.org/wiki/C%E2%99%AF)
+
+[MSDN C# 教程](https://msdn.microsoft.com/zh-cn/library/aa288463(v=vs.71).aspx)
+
+[RUNOOB C# 教程](http://www.runoob.com/csharp/csharp-tutorial.html)
 
