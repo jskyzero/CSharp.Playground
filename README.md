@@ -25,15 +25,22 @@ CLI，[通用语言基础架构](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A
 ### 运行细节
 
 1. C#源代码被编译成符合CLI规范的中间语言（IL），IL代码与资源文件一起作为程序集文件存为.{exe|dll}文件。
-`
+2. 执行C#程序时候，程序集被加载到CLR中，如果符合安全要求，则CLR执行实时（JIT）编译将IL代码转化为本机机器指令，CLR还提供自动垃圾回收，异常处理和资源管理有关的其他服务。
+
 ## C Sharp 上手
 
 ### 自己编译运行HelloWorld.cs
-关于编译相关可以[参考](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/compiler-options/index)中间示例都给的很详细。在教程中也有涉及到，总之用上的时候在具体来学参数可能会比较有效率。
+关于编译相关可以[参考](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/compiler-options/index)中间示例都给的很详细。在教程中也有涉及到，总之用上的时候再具体来学参数可能会比较有效率。
 
-### 语法程序相关，请参考最下面的参考随意跟着一个教程跟着做完
+记得学习编译成DLL文件和在编译中使用自己的DLL文件的基本套路。
 
-### 
+### 语法程序相关，请参考最下面的参考随意跟着一个教程跟着做完。
+
+欸如果有其他语言的经验的话，学习来不会难，注意把一些特异性的语法比如什么索引器/委托/事件学一下。
+
+### dotnet相关
+
+请参考dotnet相关文档自行学习，不过还是请注意把握好dotnet和C#语言的关系，不要花太多时间在其上。
 
 ## Reference 
 
