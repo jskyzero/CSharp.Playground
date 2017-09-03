@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>CSharp-Study</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>CSharp-Study</PackageId>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <RuntimeFrameworkVersion>2.0.0</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+</Project>
