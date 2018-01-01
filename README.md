@@ -25,6 +25,19 @@
 └── README.md
 ```
 
+## Naming Style
+
++ Namespace : Pascal Case (also called `UpperCamelCase`).
++ Classes and Structures : Pascal Case.
++ Interfaces : Follow class naming conventions, but start the name with `I` and capitalize the letter following the `I`.
++ Functions : Pascal Case.
++ Properties and Public Member Variables : Pascal Case.
++ Parameters and Procedure-level Variables : Camel Case (or `lowerCamelCase`).
+c
+> + Pascal case: writing compound words or phrases such that the first letter of each concatenated word is capitalized.
+> + Camel case:  writing compound words or phrases such that each word or abbreviation in the middle of the phrase begins with a capital letter. 
+>   + upper camel case (initial upper case letter, also known as Pascal Case).
+>   + lower camel case (initial lower case letter).
 ## Reference 
 
 + [Wikipedia C#](https://zh.wikipedia.org/wiki/C%E2%99%AF)
