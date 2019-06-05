@@ -9,7 +9,7 @@
 ## Install && Run
 
 + run: `dotnet run` or 
-  `dotnet build && dotnet bin/Debug/netcoreapp2.0/CSharp-Study.dll`
+  `dotnet build && dotnet bin/Debug/netcoreapp2.0/todolist.dll`
 + rodolist help
     + add : `add title content`
     + del delete remove : `del title`
