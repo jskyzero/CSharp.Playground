@@ -1,6 +1,31 @@
-# C#-Study
-`jskyzero` `2017/12/31`
+# CSharp.Playground
+
+[![](https://img.shields.io/badge/Author-jskyzero-brightgreen.svg?style=flat)]()
+[![](https://img.shields.io/badge/Data-2017/12/31-brightgreen.svg?style=flat)]()
+
+本倉庫將提供相當多C#語言相關的介紹與示例。
+
 ## Overview
+
++ 什么是C#（编程语言），C#的特点。
+  + C# is an elegant and type-safe object-oriented language.（C# 是类型安全的面向对象的精妙语言。）
+  + C# syntax is highly expressive（C# 语法高度重视表达。）
+  + C# programs run on the .NET Framework（C# 程序在 .NET Framework 上运行。~~严格上不只 .NET Framework~~）
++ 为什么我要学习C#
+  + 个人意见，C#在性能、可维护性、编写成本的综合考虑上有很大优势。
+  + 如果你为Windows编写程序，C#和Visual Studio为你提供了很好的解决方案。
+  + .Net Core（和MONO等）打消了我对于跨平台方面的考虑。
+  + 如果你使用Unity制作游戏，C#是你的首选语言。
++ C#与.Net之间的关系
+  + C# 是 .NET 框架的一部分，且用于编写 .NET 应用程序。
+  + .NET框架以通用语言运行库为基础，支持多种语言。 .NET框架包括称为公共语言运行时（CLR）的虚拟执行系统和统一的类库，CLR是微软对通用语言架构（CLI，Common Language Infrastructure）的实现。通用语言架构定义了一个语言无关的跨体系结构的运行环境。
++ 我应该如何开始
+  + 建议阅读[C# 指南](https://docs.microsoft.com/zh-cn/dotnet/csharp/)和其他有效学习资源。
+  + 本仓库适合有一定基础的人阅读，并用来记录一些不方便记忆的东西，提供一些可以运行的完整示例。
+    + 具体来说，本仓库会有基础的语法示例、编码风格参考、项目布局参考、C#历史版本与最新版本回顾...。
+
+
+<!-- ## Overview
 + C#是微软推出的一种基于.NET框架的、面向对象的高级编程语言。
 + 语言本身深受Visual Basic、Java、C和C++ 的影响。
 + C#旨在设计成为一种“简单、现代、通用”，以及面向对象的程序设计语言
@@ -8,10 +33,8 @@
 
 ![.NET 体系结构组件](https://docs.microsoft.com/zh-cn/dotnet/standard/media/components.png)
 
-[.NET框架](https://docs.microsoft.com/zh-cn/dotnet/standard/components)以通用语言运行库为基础，支持多种语言。.NET框架包括称为公共语言运行时（CLR）的虚拟执行系统和统一的类库，CLR是微软对通用语言架构（CLI，Common Language Infrastructure）的实现。通用语言架构定义了一个语言无关的跨体系结构的运行环境。
-
 1. C#源代码被编译成符合CLI规范的中间语言（IL），IL代码与资源文件一起作为程序集文件存为.{exe|dll}文件。
-2. 执行C#程序时候，程序集被加载到CLR中，如果符合安全要求，则CLR执行实时（JIT）编译将IL代码转化为本机机器指令，CLR还提供自动垃圾回收，异常处理和资源管理有关的其他服务。
+2. 执行C#程序时候，程序集被加载到CLR中，如果符合安全要求，则CLR执行实时（JIT）编译将IL代码转化为本机机器指令，CLR还提供自动垃圾回收，异常处理和资源管理有关的其他服务。 -->
 
 ## Structure
 ```
