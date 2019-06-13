@@ -36,7 +36,7 @@
 1. C#源代码被编译成符合CLI规范的中间语言（IL），IL代码与资源文件一起作为程序集文件存为.{exe|dll}文件。
 2. 执行C#程序时候，程序集被加载到CLR中，如果符合安全要求，则CLR执行实时（JIT）编译将IL代码转化为本机机器指令，CLR还提供自动垃圾回收，异常处理和资源管理有关的其他服务。 -->
 
-## Structure
+<!-- ## Structure
 ```
 .
 ├── docs              //documents
@@ -46,7 +46,7 @@
 ├── projects
 │   └── todolist      // A simpile todolist
 └── README.md
-```
+``` -->
 
 ## Naming Style
 
