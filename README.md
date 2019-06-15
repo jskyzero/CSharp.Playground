@@ -7,6 +7,9 @@
 
 ## Overview
 
+<!-- ![C# language](https://docs.microsoft.com/zh-cn/dotnet/images/hub/csharp-icon.svg) -->
+
+
 + 什么是C#（编程语言），C#的特点。
   + C# is an elegant and type-safe object-oriented language.（C# 是类型安全的面向对象的精妙语言。）
   + C# syntax is highly expressive（C# 语法高度重视表达。）
@@ -36,17 +39,26 @@
 1. C#源代码被编译成符合CLI规范的中间语言（IL），IL代码与资源文件一起作为程序集文件存为.{exe|dll}文件。
 2. 执行C#程序时候，程序集被加载到CLR中，如果符合安全要求，则CLR执行实时（JIT）编译将IL代码转化为本机机器指令，CLR还提供自动垃圾回收，异常处理和资源管理有关的其他服务。 -->
 
-<!-- ## Structure
+## Structure
 ```
 .
-├── docs              //documents
+├── LICENSE
+├── README.md
+├── docs            // 一些文档
+│   ├── 0.csharp-guide-in-short.md                  // C#指南精粹
+│   ├── 1.dotnet-and-csharp-version-and-history.md  // .NET版本與C#的版本与历史
+│   └── 2.dotnet-and-csharp-api-overview.md         // .NET and C#: 引用程序接口概览
 ├── hardwork
-│   ├── hardway       // practice code
-│   └── runoob        // runoob practice code
-├── projects
-│   └── todolist      // A simpile todolist
-└── README.md
-``` -->
+│   ├── hardway     // C#指南教程实践
+│   ├── helloworld  // “你好世界！”
+│   ├── leetcode    // 一些题解
+│   ├── runoob      // 菜鸟教程
+│   └── tips        // 一些小语法点的示例
+└── projects
+    ├── dotnet-standard-2.0   // API测试项目
+    ├── socket                // 套接字使用
+    └── todolist              // 简单持续化存储的待办事项应用
+```
 
 ## Naming Style
 
@@ -63,10 +75,5 @@
 >   + lower camel case (initial lower case letter).
 
 ## Reference
-
-+ [Github dotnet core](https://github.com/dotnet/core)
-+ [Github dotnet csharp](https://github.com/dotnet/csharplang)
 + [Github Microsoft dotnet](https://github.com/Microsoft/dotnet)
-+ [Wikipedia C#](https://zh.wikipedia.org/wiki/C%E2%99%AF)
-+ [MSDN C# 教程](https://msdn.microsoft.com/zh-cn/library/aa288463(v=vs.71).aspx)
-+ [RUNOOB C# 教程](http://www.runoob.com/csharp/csharp-tutorial.html)
++ [C# 参考](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/index)
