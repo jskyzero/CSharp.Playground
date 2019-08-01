@@ -7,7 +7,7 @@
 
 ## Overview
 
-<!-- ![C# language](https://docs.microsoft.com/zh-cn/dotnet/images/hub/csharp-icon.svg) -->
+![C# language](./docs/helloworld.png)
 
 
 + 什么是C#（编程语言），C#的特点。
